@@ -1,0 +1,21 @@
+{
+    "name": "jss/learning_composer",
+    "description": "i am learning how to use the composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunil Jolapara",
+            "email": "jolapara.sunil.js@gmail.com"
+        }
+    ],
+    "require": {
+        'php': ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Learning\\ResponseClass\\":"src/"
+        }
+    }
+
+}
